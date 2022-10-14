@@ -27,7 +27,8 @@ def selectionSort(A, i, n):
  
 if __name__ == '__main__':
  
-    A = [3, 5, 8, 4, 1, 9, -2]
+    A = list(map(int, input("Enter multiple values: ").split()))
+
  
     selectionSort(A, 0, len(A))
  
