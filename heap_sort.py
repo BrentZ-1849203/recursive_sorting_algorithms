@@ -30,7 +30,7 @@ def heap_sort(nums):
         heapify(nums, i, 0)
 
 
+random_list_of_nums = list(map(int, input("Enter multiple values: ").split()))
 
-random_list_of_nums = [35, 12, 43, 8, 51]
 heap_sort(random_list_of_nums)
 print(random_list_of_nums)
