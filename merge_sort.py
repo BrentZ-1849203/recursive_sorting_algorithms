@@ -1,4 +1,5 @@
-to_sort = [30,20,10,9,8,7,6,4,2,1]
+to_sort = list(map(int, input("Enter multiple values: ").split()))
+
 
 def merge(x, y):
 

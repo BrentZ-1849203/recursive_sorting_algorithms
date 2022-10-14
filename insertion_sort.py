@@ -14,7 +14,6 @@ def insertion(arr, n):
 
     arr[j + 1] = last
 
-
-arr = [12, 11, 13, 5, 6]
+arr = list(map(int, input("Enter multiple values: ").split()))
 insertion(arr, len(arr))
 print(arr)
